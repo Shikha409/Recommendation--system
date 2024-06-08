@@ -33,9 +33,8 @@ Amazon Beauty Products dataset  from Kaggle: (https://www.kaggle.com/skillsmuggl
 4. Build and train the LSTM model.
 5. Use the trained model to predict the next products.
 
-# Example Usage
+# Example Usage python
 
-# python
 # Predict the next 5 products
 sample_sequence = ['B001E4KFG0', 'B000VJRN2I', 'B0016B2C1K']  # Example product sequence
 

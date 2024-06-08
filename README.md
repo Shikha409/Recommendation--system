@@ -38,7 +38,9 @@ Example Usage
 python
 # Predict the next 5 products
 sample_sequence = ['B001E4KFG0', 'B000VJRN2I', 'B0016B2C1K']  # Example product sequence
+
 next_products = predict_next_n_products(model, tokenizer, sample_sequence, max_sequence_len, 5)
+
 print(f'Next 5 product predictions: {next_products}')
 
 
